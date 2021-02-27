@@ -1,0 +1,28 @@
+body {
+    background-attachment: fixed;
+    background-color: #FFC857;
+    color: #DB3A34;
+}
+.btn-outline-secondary {
+    color: #DB3A34;
+    border-color: #DB3A34;
+}
+
+.container {
+    background-color: #ffd581;
+}
+
+.head {
+    text-align: center;
+    font-size: 50px;
+    font-family: Oi;
+}
+
+img {
+    align-self: center;
+}
+
+.input-group {
+    padding: 100px;
+
+}
