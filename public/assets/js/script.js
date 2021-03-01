@@ -13,6 +13,19 @@ $(document).ready(function() {
         });
     });
 
+    $(".undevour").on("click", function(e) {
+        e.preventDefault();
+        var id = $(this).data("id");
+
+        // Send the PUT request.
+        $.ajax("/api/burgers/" + id, {
+            type: "PUT",
+            data: { devoured: false }
+        }).then(function() {
+            location.reload();
+        });
+    });
+
     $(".add-burger").on("submit", function(e) {
         e.preventDefault();
 
@@ -31,17 +44,7 @@ $(document).ready(function() {
         }
     });
 
-    $(".restore-burgers").on("click", function(e) {
-        e.preventDefault();
-
-        // Send the PUT request.
-        $.ajax("/api/burgers", {
-            type: "PUT",
-            data: { devoured: false }
-        }).then(function() {
-            location.reload();
-        });
-    });
+    
 
     $(".remove").on("click", function(e) {
         e.preventDefault();
