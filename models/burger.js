@@ -9,13 +9,13 @@ var burger = {
     orm.create("burgers", burger_name, (res) => cb(res));
   },
   update(id, devoured, cb) {
-    orm.update("burgers", id, devoured, (res) => cb(res));
+    orm.updateOne("burgers", id, devoured, (res) => cb(res));
   },
   updateAll(devoured, cb) {
     orm.updateAll("burgers", devoured, (res) => cb(res));
   },
   delete(id, cb) {
-    orm.delete("burgers", id, (res) => cb(res));
+    orm.deleteOne("burgers", id, (res) => cb(res));
   }
 };
 

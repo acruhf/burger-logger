@@ -1,6 +1,9 @@
 a.devour.card-link {
     color: #DB3A34;
 }
+.fa-trash-alt:before {
+    color: #DB3A34;
+}
 
 body {
     background-attachment: fixed;
@@ -11,6 +14,10 @@ body {
     background-color: #DB3A34;
     border-color: #DB3A34;
     color: white;
+}
+
+.card-body {
+    text-align: center;
 }
 
 .container {
@@ -30,8 +37,9 @@ h2 {
 
 img {
     align-self: center;
+    width: 250px;
 }
 
 .input-group {
-    padding: 100px;
+    padding: 20px;
 }
