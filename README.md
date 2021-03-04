@@ -6,7 +6,7 @@
 
   ## **Description**
   
-  A simple burger logging app that allows you to update a database of burger types using Node, Express, and MySQL
+  A simple burger logging app designed to integrate MySQL, Node, Express, Handlebars, & a homemade ORM. Submit a burger of any kind to be devoured or undevoured at your whim. If your creation is not delicious enough, simply delete it from the list.
   
   
   ***
@@ -35,13 +35,11 @@
   
   ## **Contributions**
   
-  Add a burger with a name of your choice.
+  Add your own favorite burger!
   
   ***
   
-  ## **Tests**
-  
-  No testing Data
+
   
   ***
   
