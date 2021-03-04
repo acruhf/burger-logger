@@ -15,7 +15,6 @@
   * [Description](#Description)
   * [Installation](#Installation)
   * [Usage](#Usage)
-  * [Testing](#tests)
   * [Contributions](#contributions)
   * [License](#license)
   * [Questions](#Questions)
