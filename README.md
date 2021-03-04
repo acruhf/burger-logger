@@ -6,7 +6,7 @@
 
   ## **Description**
   
-  A simple burger logging app designed to integrate MySQL, Node, Express, Handlebars, & a homemade ORM. Submit a burger of any kind to be devoured or undevoured at your whim. If your creation is not delicious enough, simply delete it from the list.
+  A simple burger logging app designed to integrate MySQL, Node, Express, Handlebars, & a homemade ORM. Submit a burger of any kind to be devoured or undevoured at your whim. If your creation is not delicious enough, simply delete it from the menu entirely.
   
   
   ***
